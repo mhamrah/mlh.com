@@ -92,8 +92,10 @@ body {
 }
 #container { width: 960px; margin: 0 auto; }
 
-h1 { font-size: 5em; color: #dedede}
-h1 span { color: #b70000 }
+h1 { font-size: 5em; color: #fff8b2}
+h1 span { color: #a32b26 }
+
+/* #325a66 */ 
 
 
 
