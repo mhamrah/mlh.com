@@ -167,10 +167,10 @@ a:hover { color: #036; }
  *
  * Author: 
  */
-
-
-
-
+body { background: #212121; color: #efefef }
+#container { width:960px; margin: auto }
+#name { float: right; }
+h1 { font-size: 4em; text-shadow: rgba(0,0,0,0.5) -1px 0, rgba(0,0,0,0.3) 0 -1px, rgba(255,255,255,0.5) 0 1px, rgba(0,0,0,0.3) -1px -2px; } 
 
 
 
