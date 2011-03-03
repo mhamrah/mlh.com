@@ -198,11 +198,17 @@ body {
 }
 
 #name { 
-  float: right; 
+  float: right;
+  margin-top: 10px;
 }
 h1 { 
+  color: #191919;
   font-size: 400%; 
-  text-shadow: rgba(0,0,0,0.5) -1px 0, rgba(0,0,0,0.3) 0 -1px, rgba(255,255,255,0.5) 0 1px, rgba(0,0,0,0.3) -1px -2px; } 
+  text-shadow: 
+  0px -3px 0px #000000,
+  0px 1px 0px #7e7e7e
+
+} 
 
 header 
 {
@@ -211,6 +217,10 @@ header
   -webkit-transform: rotate(-10deg);
   -moz-transform: rotate(-10deg);
   tranform:rotate(-10deg);
+  -moz-box-shadow: 0px 10px 10px #212121;
+  -webkit-box-shadow: 0px 10px 10px #212121;
+  box-shadow: 0px 10px 10px #212121;
+
 }
 
 header nav 
@@ -221,21 +231,59 @@ margin: 0 auto;
 
 header nav li 
 {
-  height:100px;
   display: inline-block;
   font-weight: bold;
   font-size: 200%;
 }
-header nav li h2
+
+header nav li div
 {
-  -webkit-transform: rotate(-90deg);
+  width:100px;
+  height:100px;
+   -webkit-transform: rotate(-90deg);
   -moz-transform: rotate(-90deg);
   tranform:rotate(-90deg);
+  color: #191919;
+  text-shadow: 1px 0px 0px rgba(0, 0, 0, 1.0) , -1px 0px 0px rgba(184,184,184, 0.25)
+}
+.header nav li div 
+{
+   -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  tranform:rotate(-90deg);
+  
 }
 
-#blog { background-color: #f9a60a }
-#twitter { background-color: #317393 }
-#flickr { background-color: #802F3A }
+#blog { 
+  background: #f9a60a; 
+  background: -webkit-gradient(
+    linear,
+    0 0,
+    0 100%,
+    from(#f9a60a),
+    to(#895a03)
+  )
+}
+#twitter { 
+  background: #317393;
+  background: -webkit-gradient(
+    linear,
+    0 0,
+    0 100%,
+    from(#317393),
+    to(#132d3a)
+    )
+}
+#flickr { 
+  background: #802F3A; 
+  background: -webkit-gradient(
+    linear,
+    0 0,
+    0 100%,
+    from(#802F3A),
+    to(#290f13)
+    )
+}
 
 
 
