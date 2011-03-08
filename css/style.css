@@ -188,6 +188,7 @@ body {
     #545454,
     #212121 40%
   );
+  overflow-x:hidden;
 }
 
 #container { }
@@ -206,12 +207,12 @@ h1 {
   font-size: 500%; 
   text-shadow: 
   -2px -2px 1px #000000,
-  1.0px 0.5px 1px #7e7e7e
+  1.0px 0.5px 1px #7e7e7e;
 } 
 header 
 {
   background-color: #191919;
-  margin: 75px -20px;
+  margin: 75px -30px;
   -webkit-transform: rotate(-10deg);
   -moz-transform: rotate(-10deg);
   tranform:rotate(-10deg);
@@ -231,9 +232,33 @@ header nav li
   font-weight: bold;
   font-size: 300%;
   width:60px;
+  -webkit-transition: all .25s ease-out;
+  -moz-transition: all .25s ease-out;
+  -o-transition: all .25s ease-out;
+  
 }
+header nav li:hover
+{
+  width: 200px;
+}
+/*header nav li:hover
+{
+  -webkit-animation-name: setWidth;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-timing-function: ease-in;
+}
+@-webkit-keyframes setWidth
+{
+  to {
+    width: 200px;
+  }
+}*/
 
-header nav li div
+html.no-csstransforms header nav li
+{
+  width: auto;
+}
+header nav li a div
 {
   width:200px;
   height:200px;
@@ -244,14 +269,30 @@ header nav li div
   color: #191919;
   text-shadow: 
     2px -2px 1px rgba(0, 0, 0, 1.0) , 
-    -1px 0.5px 1px #7e7e7e /* rgba(184,184,184, 0.25) */
+    -1px 0.5px 1px #7e7e7e; /* rgba(184,184,184, 0.25) */
+  -webkit-transition: all .5s ease-out;
+  -moz-transition: all .5s ease-out;
+  -o-transition: all .5s ease-out;
+
+
 }
+header nav li a div:hover
+{
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  transform:rotate(00deg);
+   text-shadow: 
+    -1px -1px 1px rgba(0, 0, 0, 1.0) , 
+    0.5px 1px 0.5px #7e7e7e; /* rgba(184,184,184, 0.25) */
+
+}
+
 header a, header a:hover, header a:visited
 {
   text-decoration: none;
   color: inherit;
 }
-header a:hover
+header nav li a div:hover
 {
   color: rgba(255,255,255, 0.5);
   text-shadow: none;
@@ -296,10 +337,24 @@ header nav li div
     to(#290f13)
     )
 }
-
-
-
-
+#notice {
+  display: none;
+}
+html.no-csstransforms #notice, html.no-cssanimations #notice, html.no-rgba #notice
+{
+  display: block;
+  background-color: #6a0601;
+  width:100%;
+  text-align:center;
+  color: #fff;
+  font-weight:bold;
+  padding: 10px;
+  font-size:150%;
+}
+html.no-csstransforms #notice a:visited, html.no-csstransforms #notice a, html.no-csstransforms #notice a:hover
+{
+  color: inherit;
+}
 
 
 
