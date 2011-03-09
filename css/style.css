@@ -203,14 +203,17 @@ body {
   margin-top: 10px;
 }
 h1 { 
+  
   color: #191919;
   font-size: 500%; 
   text-shadow: 
   -2px -2px 1px #000000,
-  1.0px 0.5px 1px #7e7e7e;
+  1.0px 0.5px 1px #7e7e7e; 
+  
 } 
 header 
 {
+  
   background-color: #191919;
   margin: 75px -30px;
   -webkit-transform: rotate(-10deg);
