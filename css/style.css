@@ -159,7 +159,7 @@ body, select, input, textarea {
 h1, h2, h3, h4, h5, h6 { font-weight: bold; }
 
 a, a:active, a:visited { color: #607890; }
-a:hover { color: #036; }
+/* a:hover { color: #036; } */
 
 
 /**
@@ -191,24 +191,34 @@ body {
   overflow-x:hidden;
 }
 
+#main a, #main a:active, #main a:visited { text-decoration: none; font-weight: bold; color:#fff}
+#main a:hover { text-decoration: underline; }
+
 #bg {
- opacity: 0.2;
+ background-image: url('../images/bg.jpg');    
+  opacity: 0.2;
  position: absolute;
- top:0
+ top:0;
  bottom:0;
  left:0;
  right:0;
  height: 100%;
  width:100%;
  overflow: hidden;
+ z-index: -1;
 }
 #container { 
   }
 
 #main {
   margin-top: 200px;
-  background-color: rgba(20,20,20, 0.9);
+  padding: 10px 0px;
+  background-color: rgba(20,20,20, .8);
 }
+
+
+#content p { margin-bottom: 5px;}
+
 #content {
   width:960px;
   margin: 0 auto;
@@ -248,6 +258,7 @@ header
 
 #bg2 {
  opacity: 0.2;
+ background-image: url('../images/retro_paper_2.jpg');
  position:absolute;
  top:0px;
  bottom: 0px;
@@ -256,6 +267,7 @@ header
  overflow:hidden;
  height:100%;
  width:100%;
+z-index: -1;
 }
 
 header nav 
@@ -281,7 +293,10 @@ header nav li:hover
   width: 200px;
 }
 
-#main {
+footer {
+text-align:center;
+margin-top: 20px;
+font-size: 90%;
 }
 
 
