@@ -1,90 +1,95 @@
 <!doctype html>
 <!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
 <!--[if lt IE 7 ]> <html class="no-js ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]>    <html class="no-js ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]>    <html class="no-js ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
-<head>
-  <meta charset="utf-8">
+  <!--[if IE 7 ]>    <html class="no-js ie7" lang="en"> <![endif]-->
+    <!--[if IE 8 ]>    <html class="no-js ie8" lang="en"> <![endif]-->
+      <!--[if (gte IE 9)|!(IE)]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+        <head>
+          <meta charset="utf-8">
 
-  <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
-       Remove this if you use the .htaccess -->
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+          <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+          Remove this if you use the .htaccess -->
+          <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <title>Michael Hamrah</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
+          <title>Michael Hamrah</title>
+          <meta name="description" content="">
+          <meta name="author" content="">
 
-  <!-- Mobile viewport optimized: j.mp/bplateviewport -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <!-- Mobile viewport optimized: j.mp/bplateviewport -->
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Place favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
-  <link rel="shortcut icon" href="/favicon.ico">
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-
-
-  <!-- CSS: implied media="all" -->
-  <link rel="stylesheet" href="css/style.css?v=2">
-
-  <!-- Uncomment if you are specifically targeting less enabled mobile browsers
-  <link rel="stylesheet" media="handheld" href="css/handheld.css?v=2">  -->
-
-  <!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
-  <script src="js/libs/modernizr-1.7.min.js"></script>
-
-</head>
-
-<body>
-
-  <div id="container">
-    <div id="notice">
-      Whoa!  You need to use a modern browser.  Try <a href="http://www.google.com/chrome">Chrome</a> or <a href="http://www.getfirefox.com">Firefox</a>.
-    </div>
-    <header>
-    <nav>
-    <ul>
-      <li id="blog"><a href="http://www.michaelhamrah.com/blog"><div><h2>Blog</h2></div></a></li>
-      <li id="twitter"><a href="http://twitter.com/mhamrah"><div><h2>Twitter</h2></div></a></li>
-      <li id="flickr"><a href="http://www.flickr.com/photos/hamrah/tags/favorite/"><div><h2>Flickr</h2></div></a></li>
-    </ul>
-      <div id="name">
-        <h1>Michael Hamrah</h1>
-      </div>
-    </nav>
-    </header>
-    <div id="main" role="main">
-    </div>
-    <footer>
-
-    </footer>
-  </div> <!--! end of #container -->
+          <!-- Place favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+          <link rel="shortcut icon" href="/favicon.ico">
+          <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
 
-  <!-- JavaScript at the bottom for fast page loading -->
+          <!-- CSS: implied media="all" -->
+          <link rel="stylesheet" href="css/style.css?v=2">
 
-  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary -->
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script>
-  <script>window.jQuery || document.write(unescape('%3Cscript src="js/libs/jquery-1.5.1.js"%3E%3C/script%3E'))</script>
+          <!-- Uncomment if you are specifically targeting less enabled mobile browsers
+          <link rel="stylesheet" media="handheld" href="css/handheld.css?v=2">  -->
+
+          <!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
+          <script src="js/libs/modernizr-1.7.min.js"></script>
+
+        </head>
+
+        <body>
+          <img id="bg" src="images/bg.jpg" alt="bg" />
+          <div id="container">
+            <div id="notice">
+              Whoa!  You need to use a modern browser.  Try <a href="http://www.google.com/chrome">Chrome</a> or <a href="http://www.getfirefox.com">Firefox</a>.
+            </div>
+            <header>
+            <img id="bg2" src="images/retro_paper_2.jpg" alt="bg2"/>
+            <nav>
+            <ul>
+              <li id="blog"><a href="http://www.michaelhamrah.com/blog"><div><h2>Blog</h2></div></a></li>
+              <li id="twitter"><a href="http://twitter.com/mhamrah"><div><h2>Twitter</h2></div></a></li>
+              <li id="flickr"><a href="http://www.flickr.com/photos/hamrah/tags/favorite/"><div><h2>Flickr</h2></div></a></li>
+            </ul>
+            <div id="name">
+              <h1>Michael Hamrah</h1>
+            </div>
+            </nav>
+
+            </header>
+                       <footer>
+
+            </footer>
+          </div> <!--! end of #container -->
+          <div id="main" role="main">
+            <div id="content">
+              This is some content
+            </div>
+            </div>
 
 
-  <!-- scripts concatenated and minified via ant build script-->
-  <script src="js/script.js"></script>
-  <!-- end scripts-->
+          <!-- JavaScript at the bottom for fast page loading -->
+
+          <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary -->
+          <script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script>
+          <script>window.jQuery || document.write(unescape('%3Cscript src="js/libs/jquery-1.5.1.js"%3E%3C/script%3E'))</script>
 
 
-  <!--[if lt IE 7 ]>
-    <script src="js/libs/dd_belatedpng.js"></script>
-    <script>DD_belatedPNG.fix('img, .png_bg'); // Fix any <img> or .png_bg bg-images. Also, please read goo.gl/mZiyb </script>
-  <![endif]-->
+          <!-- scripts concatenated and minified via ant build script-->
+          <script src="js/script.js"></script>
+          <!-- end scripts-->
 
 
-  <!-- mathiasbynens.be/notes/async-analytics-snippet Change UA-XXXXX-X to be your site's ID -->
-  <script>
-    var _gaq=[['_setAccount','UA-6576586-1'],['_trackPageview']];
-    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
-    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-    s.parentNode.insertBefore(g,s)}(document,'script'));
-  </script>
+          <!--[if lt IE 7 ]>
+          <script src="js/libs/dd_belatedpng.js"></script>
+          <script>DD_belatedPNG.fix('img, .png_bg'); // Fix any <img> or .png_bg bg-images. Also, please read goo.gl/mZiyb </script>
+          <![endif]-->
 
-</body>
-</html>
+
+          <!-- mathiasbynens.be/notes/async-analytics-snippet Change UA-XXXXX-X to be your site's ID -->
+          <script>
+            var _gaq=[['_setAccount','UA-6576586-1'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
+              g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+              s.parentNode.insertBefore(g,s)}(document,'script'));
+          </script>
+
+        </body>
+      </html>
