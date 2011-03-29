@@ -316,8 +316,8 @@ header nav li div
     linear,
     0 0,
     0 100%,
-    from(#f9a60a),
-    to(#895a03)
+    from(rgba(249,166,10,.8)),
+    to(rgba(137,90,3,.8))
   )
 }
 #twitter { 
