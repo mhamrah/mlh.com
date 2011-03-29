@@ -342,7 +342,7 @@ header nav li a div:hover
   transform:rotate(00deg);
    text-shadow: 
     -1px -1px 1px rgba(0, 0, 0, 1.0) , 
-    0.5px 1px 0.5px #7e7e7e; /* rgba(184,184,184, 0.25) */
+    1px 1px 1px #7e7e7e; /* rgba(184,184,184, 0.25) */
 
 }
 
@@ -372,8 +372,8 @@ header nav li div
     linear,
     0 0,
     0 100%,
-    from(rgba(249,166,10,.8)),
-    to(rgba(137,90,3,.8))
+    from(rgba(249,166,10,.75)),
+    to(rgba(137,90,3,.75))
   )
 }
 #twitter { 
@@ -382,8 +382,8 @@ header nav li div
     linear,
     0 0,
     0 100%,
-    from(#317393),
-    to(#132d3a)
+    from(rgba(49,115,147,.75)),
+    to(rgba(19,45,58,.75))
     )
 }
 #flickr { 
@@ -392,8 +392,8 @@ header nav li div
     linear,
     0 0,
     0 100%,
-    from(#802F3A),
-    to(#290f13)
+    from(rgba(128,47,58,.75)),
+    to(rgba(41,15,19,.75))
     )
 }
 #notice {
