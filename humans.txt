@@ -3,18 +3,18 @@
 
 
 /* TEAM */
-  <your title>: <your name>
-  Site: 
-  Twitter: 
-  Location: 
+  Creator: Michael Hamrah
+  Site: michaelhamrah.com
+  Twitter: @mhamrah
+  Location: Brooklyn, NY
 
 /* THANKS */
-  Names (& URL): 
+  Names (& URL): Paul Irish for the Html5 Boilerplate Code!
 
 /* SITE */
   Standards: HTML5, CSS3
   Components: Modernizr, jQuery
-  Software:
+  Software: Vim.  Gotta Love it.
   
 
                                     
