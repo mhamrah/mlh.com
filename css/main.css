@@ -1,300 +1,57 @@
 /*
- * HTML5 Boilerplate
- *
- * What follows is the result of much research on cross-browser styling.
- * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
- * Kroc Camen, and the H5BP dev community and team.
- */
-
-/* ==========================================================================
-   Base styles: opinionated defaults
-   ========================================================================== */
-
-html,
-button,
-input,
-select,
-textarea {
-    color: #222;
-}
-
-body {
-    font-size: 1em;
-    line-height: 1.4;
-}
-
-/*
- * Remove text-shadow in selection highlight: h5bp.com/i
- * These selection declarations have to be separate.
- * Customize the background color to match your design.
- */
-
-::-moz-selection {
-    background: #b3d4fc;
-    text-shadow: none;
-}
-
-::selection {
-    background: #b3d4fc;
-    text-shadow: none;
-}
-
-/*
- * A better looking default horizontal rule
- */
-
-hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
-}
-
-/*
- * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
- */
-
-img {
-    vertical-align: middle;
-}
-
-/*
- * Remove default fieldset styles.
- */
-
-fieldset {
-    border: 0;
-    margin: 0;
-    padding: 0;
-}
-
-/*
- * Allow only vertical resizing of textareas.
- */
-
-textarea {
-    resize: vertical;
-}
-
-/* ==========================================================================
-   Chrome Frame prompt
-   ========================================================================== */
-
-.chromeframe {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
-}
-
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ==========================================================================
-   Helper classes
-   ========================================================================== */
-
-/*
- * Image replacement
- */
-
-.ir {
-    background-color: transparent;
-    border: 0;
-    overflow: hidden;
-    /* IE 6/7 fallback */
-    *text-indent: -9999px;
-}
-
-.ir:before {
-    content: "";
-    display: block;
-    width: 0;
-    height: 150%;
-}
-
-/*
- * Hide from both screenreaders and browsers: h5bp.com/u
- */
-
-.hidden {
-    display: none !important;
-    visibility: hidden;
-}
-
-/*
- * Hide only visually, but have it available for screenreaders: h5bp.com/v
- */
-
-.visuallyhidden {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
-}
-
-/*
- * Extends the .visuallyhidden class to allow the element to be focusable
- * when navigated to via the keyboard: h5bp.com/p
- */
-
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
-    clip: auto;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    position: static;
-    width: auto;
-}
-
-/*
- * Hide visually and from screenreaders, but maintain layout
- */
-
-.invisible {
-    visibility: hidden;
-}
-
-/*
- * Clearfix: contain floats
- *
- * For modern browsers
- * 1. The space content is one way to avoid an Opera bug when the
- *    `contenteditable` attribute is included anywhere else in the document.
- *    Otherwise it causes space to appear at the top and bottom of elements
- *    that receive the `clearfix` class.
- * 2. The use of `table` rather than `block` is only necessary if using
- *    `:before` to contain the top-margins of child elements.
- */
-
-.clearfix:before,
-.clearfix:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
-}
-
-.clearfix:after {
-    clear: both;
-}
-
-/*
- * For IE 6/7 only
- * Include this rule to trigger hasLayout and contain floats.
- */
-
-.clearfix {
-    *zoom: 1;
-}
-
-/* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   Theses examples override the primary ('mobile first') styles.
-   Modify as content requires.
-   ========================================================================== */
-
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
-}
-
-@media print,
-       (-o-min-device-pixel-ratio: 5/4),
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 120dpi) {
-    /* Style adjustments for high resolution devices */
-}
-
-/* ==========================================================================
-   Print styles.
-   Inlined to avoid required HTTP connection: h5bp.com/r
-   ========================================================================== */
-
-@media print {
-    * {
-        background: transparent !important;
-        color: #000 !important; /* Black prints faster: h5bp.com/s */
-        box-shadow: none !important;
-        text-shadow: none !important;
-    }
-
-    a,
-    a:visited {
-        text-decoration: underline;
-    }
-
-    a[href]:after {
-        content: " (" attr(href) ")";
-    }
-
-    abbr[title]:after {
-        content: " (" attr(title) ")";
-    }
-
-    /*
-     * Don't show links for images, or javascript/internal links
-     */
-
-    .ir a:after,
-    a[href^="javascript:"]:after,
-    a[href^="#"]:after {
-        content: "";
-    }
-
-    pre,
-    blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
-    }
-
-    thead {
-        display: table-header-group; /* h5bp.com/t */
-    }
-
-    tr,
-    img {
-        page-break-inside: avoid;
-    }
-
-    img {
-        max-width: 100% !important;
-    }
-
-    @page {
-        margin: 0.5cm;
-    }
-
-    p,
-    h2,
-    h3 {
-        orphans: 3;
-        widows: 3;
-    }
-
-    h2,
-    h3 {
-        page-break-after: avoid;
-    }
-}
+Syntax error: Invalid CSS after " */": expected expression (e.g. 1px, bold), was ".ir {"
+        on line 122 of css/main.scss
+
+117: 
+118: /*
+119:  * Image replacement
+120:  */
+121: 
+122: .ir {
+123:     background-color: transparent;
+124:     border: 0;
+125:     overflow: hidden;
+126:     /* IE 6/7 fallback */
+127:     *text-indent: -9999px;
+
+Backtrace:
+css/main.scss:122
+/Users/Michael/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.7/lib/sass/scss/parser.rb:1146:in `expected'
+/Users/Michael/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.7/lib/sass/script/lexer.rb:199:in `expected!'
+/Users/Michael/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.7/lib/sass/script/parser.rb:472:in `assert_expr'
+/Users/Michael/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.7/lib/sass/script/parser.rb:49:in `parse'
+/Users/Michael/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.7/lib/sass/scss/parser.rb:1022:in `sass_script'
+/Users/Michael/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.7/lib/sass/scss/parser.rb:882:in `value!'
+/Users/Michael/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.7/lib/sass/scss/parser.rb:859:in `declaration'
+/Users/Michael/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.7/lib/sass/scss/parser.rb:582:in `block in declaration_or_ruleset'
+/Users/Michael/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.7/lib/sass/scss/parser.rb:1122:in `call'
+/Users/Michael/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.7/lib/sass/scss/parser.rb:1122:in `rethrow'
+/Users/Michael/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.7/lib/sass/scss/parser.rb:592:in `declaration_or_ruleset'
+/Users/Michael/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.7/lib/sass/scss/parser.rb:554:in `block_child'
+/Users/Michael/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.7/lib/sass/scss/parser.rb:543:in `block_contents'
+/Users/Michael/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.7/lib/sass/scss/parser.rb:535:in `block'
+/Users/Michael/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.7/lib/sass/scss/parser.rb:529:in `ruleset'
+/Users/Michael/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.7/lib/sass/scss/parser.rb:553:in `block_child'
+/Users/Michael/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.7/lib/sass/scss/parser.rb:546:in `block_contents'
+/Users/Michael/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.7/lib/sass/scss/parser.rb:82:in `stylesheet'
+/Users/Michael/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.7/lib/sass/scss/parser.rb:27:in `parse'
+/Users/Michael/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.7/lib/sass/engine.rb:342:in `_to_tree'
+/Users/Michael/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.7/lib/sass/engine.rb:315:in `_render'
+/Users/Michael/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.7/lib/sass/engine.rb:262:in `render'
+/Users/Michael/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.7/lib/sass/plugin/compiler.rb:341:in `update_stylesheet'
+/Users/Michael/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.7/lib/sass/plugin/compiler.rb:203:in `block in update_stylesheets'
+/Users/Michael/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.7/lib/sass/plugin/compiler.rb:201:in `each'
+/Users/Michael/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.7/lib/sass/plugin/compiler.rb:201:in `update_stylesheets'
+/Users/Michael/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.7/lib/sass/plugin/compiler.rb:299:in `block in watch'
+/Users/Michael/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.7/vendor/listen/lib/listen/multi_listener.rb:108:in `call'
+/Users/Michael/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.7/vendor/listen/lib/listen/multi_listener.rb:108:in `on_change'
+/Users/Michael/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.7/vendor/listen/lib/listen/multi_listener.rb:117:in `block in initialize_adapter'
+/Users/Michael/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.7/vendor/listen/lib/listen/adapter.rb:198:in `call'
+/Users/Michael/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.7/vendor/listen/lib/listen/adapter.rb:198:in `report_changes'
+/Users/Michael/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.7/vendor/listen/lib/listen/adapter.rb:210:in `poll_changed_dirs'
+/Users/Michael/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.7/vendor/listen/lib/listen/adapters/darwin.rb:38:in `block in start'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Invalid CSS after \" */\": expected expression (e.g. 1px, bold), was \".ir {\"\A         on line 122 of css/main.scss\A \A 117: \A 118: /*\A 119:  * Image replacement\A 120:  */\A 121: \A 122: .ir {\A 123:     background-color: transparent;\A 124:     border: 0;\A 125:     overflow: hidden;\A 126:     /* IE 6/7 fallback */\A 127:     *text-indent: -9999px;"; }
