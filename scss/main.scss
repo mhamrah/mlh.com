@@ -92,11 +92,56 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+@import "compass/css3";
+@import "font-awesome";
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+@import url(font-awesome-social.css);
+$font-color: #000;
+
+html {
+  height: 100%;
+}
 
 body {
-  background-color:
+  @include background-image(linear-gradient(white, #69799A)); 
+  background-repeat: no-repeat;
+  height:100%;
+  color: $font-color;
+  margin-top:40px;
+}
+a, a:visited {
+  color: $font-color;
+}
+ul, li {
+  display: inline-block;
+  margin: 0px 40px 0px -10px;
+  padding: 0px;
+}
+i, i a, [class^="icon-"], [class*=" icon-"], #social a  {
+  font-size:2em;
+  text-decoration: none;
+}
+h1 {
+  color: #E39E5B;
+  font-size: 7em;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0px;
+}
 
+.spanner {
+  background-color: rgba(#ffffff, 0.4);
+  width:100%;
+  margin-bottom: 30px;
+}
+.spanner-body {
+  padding: 10px;
+}
 
+section
+{
+    width:960px;
+    margin: 0 auto;
+}
 
 
 
