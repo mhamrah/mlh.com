@@ -1707,45 +1707,38 @@ html {
 
 /* line 105, ../scss/main.scss */
 body {
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #69799a));
-  background-image: -webkit-linear-gradient(#ffffff, #69799a);
-  background-image: -moz-linear-gradient(#ffffff, #69799a);
-  background-image: -o-linear-gradient(#ffffff, #69799a);
-  background-image: linear-gradient(#ffffff, #69799a);
   background-repeat: no-repeat;
-  height: 100%;
   color: black;
   margin-top: 40px;
+  font-family: 'Montserrat', sans-serif;
 }
 
-/* line 112, ../scss/main.scss */
+/* line 113, ../scss/main.scss */
 a, a:visited {
   color: black;
 }
 
-/* line 115, ../scss/main.scss */
+/* line 116, ../scss/main.scss */
 #social a:hover {
   text-decoration: underline;
 }
 
-/* line 119, ../scss/main.scss */
+/* line 120, ../scss/main.scss */
 ul, li {
   display: inline-block;
   margin: 0px 40px 0px -10px;
   padding: 0px;
 }
 
-/* line 124, ../scss/main.scss */
+/* line 125, ../scss/main.scss */
 i, i a, [class^="icon-"], [class*=" icon-"], #social a {
   font-size: 2em;
   text-decoration: none;
 }
 
-/* line 128, ../scss/main.scss */
+/* line 129, ../scss/main.scss */
 h1 {
-  color: #E39E5B;
   font-size: 7em;
-  font-family: 'Montserrat', sans-serif;
   margin: 0px;
 }
 
@@ -1879,7 +1872,12 @@ section {
 @media only screen and (min-width: 35em) {
   /* Style adjustments for viewports that meet the condition */
 }
-@media print, (-o-min-device-pixel-ratio: 5 / 4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
+@media print, (-o-min-device-pixel-ratio: 1.25), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
+  /* line 278, ../scss/main.scss */
+  body {
+    background-color: #fff;
+  }
+
   /* Style adjustments for high resolution devices */
 }
 /* ==========================================================================
@@ -1887,7 +1885,7 @@ section {
    Inlined to avoid required HTTP connection: h5bp.com/r
    ========================================================================== */
 @media print {
-  /* line 287, ../scss/main.scss */
+  /* line 291, ../scss/main.scss */
   * {
     background: transparent !important;
     color: #000 !important;
@@ -1896,18 +1894,18 @@ section {
     text-shadow: none !important;
   }
 
-  /* line 295, ../scss/main.scss */
+  /* line 299, ../scss/main.scss */
   a,
   a:visited {
     text-decoration: underline;
   }
 
-  /* line 299, ../scss/main.scss */
+  /* line 303, ../scss/main.scss */
   a[href]:after {
     content: " (" attr(href) ")";
   }
 
-  /* line 303, ../scss/main.scss */
+  /* line 307, ../scss/main.scss */
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
@@ -1915,33 +1913,33 @@ section {
   /*
    * Don't show links for images, or javascript/internal links
    */
-  /* line 313, ../scss/main.scss */
+  /* line 317, ../scss/main.scss */
   .ir a:after,
   a[href^="javascript:"]:after,
   a[href^="#"]:after {
     content: "";
   }
 
-  /* line 318, ../scss/main.scss */
+  /* line 322, ../scss/main.scss */
   pre,
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
 
-  /* line 323, ../scss/main.scss */
+  /* line 327, ../scss/main.scss */
   thead {
     display: table-header-group;
     /* h5bp.com/t */
   }
 
-  /* line 328, ../scss/main.scss */
+  /* line 332, ../scss/main.scss */
   tr,
   img {
     page-break-inside: avoid;
   }
 
-  /* line 332, ../scss/main.scss */
+  /* line 336, ../scss/main.scss */
   img {
     max-width: 100% !important;
   }
@@ -1950,7 +1948,7 @@ section {
     margin: 0.5cm;
 }
 
-  /* line 342, ../scss/main.scss */
+  /* line 346, ../scss/main.scss */
   p,
   h2,
   h3 {
@@ -1958,7 +1956,7 @@ section {
     widows: 3;
   }
 
-  /* line 348, ../scss/main.scss */
+  /* line 352, ../scss/main.scss */
   h2,
   h3 {
     page-break-after: avoid;

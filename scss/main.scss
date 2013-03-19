@@ -103,11 +103,12 @@ html {
 }
 
 body {
-  @include background-image(linear-gradient(white, #69799A)); 
+  //@include background-image(linear-gradient(white, #69799A)); 
   background-repeat: no-repeat;
-  height:100%;
+  //height:100%;
   color: $font-color;
   margin-top:40px;
+  font-family: 'Montserrat', sans-serif;
 }
 a, a:visited {
   color: $font-color;
@@ -126,9 +127,8 @@ i, i a, [class^="icon-"], [class*=" icon-"], #social a  {
   text-decoration: none;
 }
 h1 {
-  color: #E39E5B;
+  //color: #E39E5B;
   font-size: 7em;
-  font-family: 'Montserrat', sans-serif;
   margin: 0px;
 }
 
@@ -272,11 +272,15 @@ section
 }
 
 @media print,
-       (-o-min-device-pixel-ratio: 5/4),
+       (-o-min-device-pixel-ratio: 1.25),
        (-webkit-min-device-pixel-ratio: 1.25),
        (min-resolution: 120dpi) {
-    /* Style adjustments for high resolution devices */
+body {
+  background-color: #fff;
 }
+         /* Style adjustments for high resolution devices */
+}
+
 
 /* ==========================================================================
    Print styles.
