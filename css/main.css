@@ -1754,13 +1754,18 @@ section {
   margin: 0 auto;
 }
 
+/* line 145, ../scss/main.scss */
+.italic {
+  font-style: italic;
+}
+
 /* ==========================================================================
 Helper classes
 ========================================================================== */
 /*
  * Image replacement
  */
-/* line 167, ../scss/main.scss */
+/* line 170, ../scss/main.scss */
 .ir {
   background-color: transparent;
   border: 0;
@@ -1769,7 +1774,7 @@ Helper classes
   *text-indent: -9999px;
 }
 
-/* line 175, ../scss/main.scss */
+/* line 178, ../scss/main.scss */
 .ir:before {
   content: "";
   display: block;
@@ -1780,7 +1785,7 @@ Helper classes
 /*
  * Hide from both screenreaders and browsers: h5bp.com/u
  */
-/* line 186, ../scss/main.scss */
+/* line 189, ../scss/main.scss */
 .hidden {
   display: none !important;
   visibility: hidden;
@@ -1789,7 +1794,7 @@ Helper classes
 /*
  * Hide only visually, but have it available for screenreaders: h5bp.com/v
  */
-/* line 195, ../scss/main.scss */
+/* line 198, ../scss/main.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -1805,7 +1810,7 @@ Helper classes
  * Extends the .visuallyhidden class to allow the element to be focusable
  * when navigated to via the keyboard: h5bp.com/p
  */
-/* line 212, ../scss/main.scss */
+/* line 215, ../scss/main.scss */
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
   clip: auto;
@@ -1819,7 +1824,7 @@ Helper classes
 /*
  * Hide visually and from screenreaders, but maintain layout
  */
-/* line 225, ../scss/main.scss */
+/* line 228, ../scss/main.scss */
 .invisible {
   visibility: hidden;
 }
@@ -1835,7 +1840,7 @@ Helper classes
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-/* line 242, ../scss/main.scss */
+/* line 245, ../scss/main.scss */
 .clearfix:before,
 .clearfix:after {
   content: " ";
@@ -1844,7 +1849,7 @@ Helper classes
   /* 2 */
 }
 
-/* line 247, ../scss/main.scss */
+/* line 250, ../scss/main.scss */
 .clearfix:after {
   clear: both;
 }
@@ -1853,7 +1858,7 @@ Helper classes
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-/* line 256, ../scss/main.scss */
+/* line 259, ../scss/main.scss */
 .clearfix {
   *zoom: 1;
 }
@@ -1864,72 +1869,72 @@ Theses examples override the primary ('mobile first') styles.
 Modify as content requires.
 ========================================================================== */
 @media only screen and (max-width: 1024px) {
-  /* line 266, ../scss/main.scss */
+  /* line 269, ../scss/main.scss */
   h1 {
     font-size: 4em;
   }
 
-  /* line 267, ../scss/main.scss */
+  /* line 270, ../scss/main.scss */
   ul, li {
     display: inline;
     margin: 0px 0px 0px -5px;
   }
 
-  /* line 271, ../scss/main.scss */
+  /* line 274, ../scss/main.scss */
   i, i a, [class^="icon-"], [class*=" icon-"], #social a {
     font-size: 1.5em;
   }
 
-  /* line 275, ../scss/main.scss */
+  /* line 278, ../scss/main.scss */
   section {
     width: auto;
     margin: 0 10px;
     text-align: justify;
   }
 
-  /* line 280, ../scss/main.scss */
+  /* line 283, ../scss/main.scss */
   .spanner {
     width: auto;
     margin-bottom: 10px;
   }
 }
 @media only screen and (max-width: 600px) {
-  /* line 287, ../scss/main.scss */
+  /* line 290, ../scss/main.scss */
   body {
     margin-top: 10px;
   }
 
-  /* line 290, ../scss/main.scss */
+  /* line 293, ../scss/main.scss */
   h1 {
     font-size: 2em;
   }
 
-  /* line 293, ../scss/main.scss */
+  /* line 296, ../scss/main.scss */
   i, i a, [class^="icon-"], [class*=" icon-"], #social a {
     font-size: 1.5em;
   }
 
-  /* line 296, ../scss/main.scss */
+  /* line 299, ../scss/main.scss */
   ul, li {
     display: block;
     margin: 0px 0px 0px -5px;
   }
 
-  /* line 300, ../scss/main.scss */
+  /* line 303, ../scss/main.scss */
   section {
     width: auto;
     margin: 0 10px;
     text-align: justify;
   }
 
-  /* line 305, ../scss/main.scss */
+  /* line 308, ../scss/main.scss */
   .spanner {
     width: auto;
     margin-bottom: 10px;
   }
 }
 @media print, (-o-min-device-pixel-ratio: 1.25), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
-  /* line 316, ../scss/main.scss */
+  /* line 319, ../scss/main.scss */
   body {
     background-color: #fff;
   }
@@ -1941,7 +1946,7 @@ Print styles.
 Inlined to avoid required HTTP connection: h5bp.com/r
 ========================================================================== */
 @media print {
-  /* line 329, ../scss/main.scss */
+  /* line 332, ../scss/main.scss */
   * {
     background: transparent !important;
     color: #000 !important;
@@ -1950,18 +1955,18 @@ Inlined to avoid required HTTP connection: h5bp.com/r
     text-shadow: none !important;
   }
 
-  /* line 337, ../scss/main.scss */
+  /* line 340, ../scss/main.scss */
   a,
   a:visited {
     text-decoration: underline;
   }
 
-  /* line 341, ../scss/main.scss */
+  /* line 344, ../scss/main.scss */
   a[href]:after {
     content: " (" attr(href) ")";
   }
 
-  /* line 345, ../scss/main.scss */
+  /* line 348, ../scss/main.scss */
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
@@ -1969,33 +1974,33 @@ Inlined to avoid required HTTP connection: h5bp.com/r
   /*
    * Don't show links for images, or javascript/internal links
    */
-  /* line 355, ../scss/main.scss */
+  /* line 358, ../scss/main.scss */
   .ir a:after,
   a[href^="javascript:"]:after,
   a[href^="#"]:after {
     content: "";
   }
 
-  /* line 360, ../scss/main.scss */
+  /* line 363, ../scss/main.scss */
   pre,
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
 
-  /* line 365, ../scss/main.scss */
+  /* line 368, ../scss/main.scss */
   thead {
     display: table-header-group;
     /* h5bp.com/t */
   }
 
-  /* line 370, ../scss/main.scss */
+  /* line 373, ../scss/main.scss */
   tr,
   img {
     page-break-inside: avoid;
   }
 
-  /* line 374, ../scss/main.scss */
+  /* line 377, ../scss/main.scss */
   img {
     max-width: 100% !important;
   }
@@ -2004,7 +2009,7 @@ Inlined to avoid required HTTP connection: h5bp.com/r
     margin: 0.5cm;
 }
 
-  /* line 384, ../scss/main.scss */
+  /* line 387, ../scss/main.scss */
   p,
   h2,
   h3 {
@@ -2012,7 +2017,7 @@ Inlined to avoid required HTTP connection: h5bp.com/r
     widows: 3;
   }
 
-  /* line 390, ../scss/main.scss */
+  /* line 393, ../scss/main.scss */
   h2,
   h3 {
     page-break-after: avoid;
