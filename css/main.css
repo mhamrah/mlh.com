@@ -1724,19 +1724,24 @@ a, a:visited {
 }
 
 /* line 115, ../scss/main.scss */
+#social a:hover {
+  text-decoration: underline;
+}
+
+/* line 119, ../scss/main.scss */
 ul, li {
   display: inline-block;
   margin: 0px 40px 0px -10px;
   padding: 0px;
 }
 
-/* line 120, ../scss/main.scss */
+/* line 124, ../scss/main.scss */
 i, i a, [class^="icon-"], [class*=" icon-"], #social a {
   font-size: 2em;
   text-decoration: none;
 }
 
-/* line 124, ../scss/main.scss */
+/* line 128, ../scss/main.scss */
 h1 {
   color: #E39E5B;
   font-size: 7em;
@@ -1744,19 +1749,19 @@ h1 {
   margin: 0px;
 }
 
-/* line 131, ../scss/main.scss */
+/* line 135, ../scss/main.scss */
 .spanner {
   background-color: rgba(255, 255, 255, 0.4);
   width: 100%;
   margin-bottom: 30px;
 }
 
-/* line 136, ../scss/main.scss */
+/* line 140, ../scss/main.scss */
 .spanner-body {
   padding: 10px;
 }
 
-/* line 141, ../scss/main.scss */
+/* line 145, ../scss/main.scss */
 section {
   width: 960px;
   margin: 0 auto;
@@ -1768,7 +1773,7 @@ section {
 /*
  * Image replacement
  */
-/* line 167, ../scss/main.scss */
+/* line 171, ../scss/main.scss */
 .ir {
   background-color: transparent;
   border: 0;
@@ -1777,7 +1782,7 @@ section {
   *text-indent: -9999px;
 }
 
-/* line 175, ../scss/main.scss */
+/* line 179, ../scss/main.scss */
 .ir:before {
   content: "";
   display: block;
@@ -1788,7 +1793,7 @@ section {
 /*
  * Hide from both screenreaders and browsers: h5bp.com/u
  */
-/* line 186, ../scss/main.scss */
+/* line 190, ../scss/main.scss */
 .hidden {
   display: none !important;
   visibility: hidden;
@@ -1797,7 +1802,7 @@ section {
 /*
  * Hide only visually, but have it available for screenreaders: h5bp.com/v
  */
-/* line 195, ../scss/main.scss */
+/* line 199, ../scss/main.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -1813,7 +1818,7 @@ section {
  * Extends the .visuallyhidden class to allow the element to be focusable
  * when navigated to via the keyboard: h5bp.com/p
  */
-/* line 212, ../scss/main.scss */
+/* line 216, ../scss/main.scss */
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
   clip: auto;
@@ -1827,7 +1832,7 @@ section {
 /*
  * Hide visually and from screenreaders, but maintain layout
  */
-/* line 225, ../scss/main.scss */
+/* line 229, ../scss/main.scss */
 .invisible {
   visibility: hidden;
 }
@@ -1843,7 +1848,7 @@ section {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-/* line 242, ../scss/main.scss */
+/* line 246, ../scss/main.scss */
 .clearfix:before,
 .clearfix:after {
   content: " ";
@@ -1852,7 +1857,7 @@ section {
   /* 2 */
 }
 
-/* line 247, ../scss/main.scss */
+/* line 251, ../scss/main.scss */
 .clearfix:after {
   clear: both;
 }
@@ -1861,7 +1866,7 @@ section {
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-/* line 256, ../scss/main.scss */
+/* line 260, ../scss/main.scss */
 .clearfix {
   *zoom: 1;
 }
@@ -1882,7 +1887,7 @@ section {
    Inlined to avoid required HTTP connection: h5bp.com/r
    ========================================================================== */
 @media print {
-  /* line 283, ../scss/main.scss */
+  /* line 287, ../scss/main.scss */
   * {
     background: transparent !important;
     color: #000 !important;
@@ -1891,18 +1896,18 @@ section {
     text-shadow: none !important;
   }
 
-  /* line 291, ../scss/main.scss */
+  /* line 295, ../scss/main.scss */
   a,
   a:visited {
     text-decoration: underline;
   }
 
-  /* line 295, ../scss/main.scss */
+  /* line 299, ../scss/main.scss */
   a[href]:after {
     content: " (" attr(href) ")";
   }
 
-  /* line 299, ../scss/main.scss */
+  /* line 303, ../scss/main.scss */
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
@@ -1910,33 +1915,33 @@ section {
   /*
    * Don't show links for images, or javascript/internal links
    */
-  /* line 309, ../scss/main.scss */
+  /* line 313, ../scss/main.scss */
   .ir a:after,
   a[href^="javascript:"]:after,
   a[href^="#"]:after {
     content: "";
   }
 
-  /* line 314, ../scss/main.scss */
+  /* line 318, ../scss/main.scss */
   pre,
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
 
-  /* line 319, ../scss/main.scss */
+  /* line 323, ../scss/main.scss */
   thead {
     display: table-header-group;
     /* h5bp.com/t */
   }
 
-  /* line 324, ../scss/main.scss */
+  /* line 328, ../scss/main.scss */
   tr,
   img {
     page-break-inside: avoid;
   }
 
-  /* line 328, ../scss/main.scss */
+  /* line 332, ../scss/main.scss */
   img {
     max-width: 100% !important;
   }
@@ -1945,7 +1950,7 @@ section {
     margin: 0.5cm;
 }
 
-  /* line 338, ../scss/main.scss */
+  /* line 342, ../scss/main.scss */
   p,
   h2,
   h3 {
@@ -1953,7 +1958,7 @@ section {
     widows: 3;
   }
 
-  /* line 344, ../scss/main.scss */
+  /* line 348, ../scss/main.scss */
   h2,
   h3 {
     page-break-after: avoid;
