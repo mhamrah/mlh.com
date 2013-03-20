@@ -1,15 +1,11 @@
 # humanstxt.org/
 # The humans responsible & technology colophon
 
-# TEAM
-
-    <name> -- <role> -- <twitter>
-
-# THANKS
-
-    <name>
+# ME
+    Michael Hamrah - @ mhamrah
 
 # TECHNOLOGY COLOPHON
 
+    Made with h5bp
     HTML5, CSS3
     Normalize.css, jQuery, Modernizr
