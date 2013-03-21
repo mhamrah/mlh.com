@@ -1,5 +1,5 @@
-Title: Michael Hamrah''s Resume
-Css: css/main.css
+Title: Michael Hamrah's Resume
+Css: css/main.css css/resume.css
 
 # Michael Hamrah
 
@@ -18,13 +18,18 @@ post
 +--{: #profile }
 ## Profile
 
-Software engineer passionate about technology and solving problems with elegant solutions.  Proven success building scalable, distributed systems for the web leveraging agile principles.
+I am a software engineer passionate about technology and solving problems with elegant solutions.  I have proven success building scalable, distributed systems for the web leveraging agile principles.  My focus is on data modeling and storage, API design, and concurrent, asynchronous programming.  
 =--
 
 +--{: #expertise }
-## Areas of Expertise
+## Expertise
 
 I am proficient with several programming languanges, specifically Ruby and Javascript, with a long history of C# and a short history of C++.  I apply a test-driven approach to development incorporating design and architectural patterns to build highly maintainable systems.  My experience includes object-orientated and functional programming along with exploitation of VMs, runtimes and frameworks.  I am currently exploring several aspects of Scala and Akka along with the Go (golang) programming language.
+
+I have extensive knowledge of web based systems across all levels of the software stack.  This includes Html, Css, and Javascript development and optimization; HTTP fundamentals; web servers (IIS, Apache, Nginx); caching techniques and tools (Memcache, Varnish, CDNs); various web frameworks and application servers (Rails, Sinatra, EM, Node/Express, ASP.NET MVC); RESTful and other web based services; networking protocols and data compression; queue based systems; search servers (Solr, ElasticSearch); cloud tools (Heroku, AWS, CloudFoundry) and both SQL (PostgreSql, SQL Server) and NoSql (Redis, Cassandra, MongoDb) databases.  My career has been focused on leveraging these tools to build optimized, fault tolerant systems that work under load at a global scale. 
+
+I have led teams of various sizes using Scrum and Kanban techniques, actively engaging with stakeholders to empower business.  I have worked with key personnel to brainstorm, define, prioritize and measure features.  My work has been to foster top talent, mentor junior developers, and recruit new hires.  I constantly seek to bridge the gap between business and technology. 
+
 =--
 
 +--{: #trip }
@@ -47,6 +52,7 @@ I assisted VFILES, an early stage startup in social fashion media, to lead their
 
 +--{: #getty .work }
 ### Director, Software Engineering *Getty Images*
+####{: .dates} 2007 - April 2012
 
 I reported to the VP of Technology and lead a twelve person team architecting and developing solutions for the Getty Images Sports, News and Entertainment division. I was responsible for driving technology for Getty’s fastest growing segment, with tools used globally by photographers, editors, sales, external partners and executives to manage all editorial content. I was a leader in the technology organization across geographic offices to drive Getty’s success in digital media.
 
@@ -60,6 +66,11 @@ Work closely with various business units, including VPs, Executives, Architects,
 =--
 
 +--{: #mediavast .work}
+### Software Engineer/Web Applications Architect *MediaVast, Inc.*
+####{: .dates} 2004-2007
+<span mardown="1" class="notice">Acquired by Getty Images for $200 million in February 2007.</span>
+
+
 Worked closely with CTO, Software Architect, and other executives in defining and developing overall software strategy, design, and business process modeling for the startup. Focused on the web stack and ensuring public facing websites are properly built and maintained. Site grew exponentially with a large, varied user base with an ever increasing photo library.
 
 Lead development under the Software Architect for an in-house digital asset and content management system designed using a custom MVC framework (.NET 1.1/2.0) including a server control library, data tier, application tier and theme engine written in C#. The framework was used in development of all MediaVast web applications including WireImage.com, which averaged 800,000 page views and 100,000 unique visitors per day. Extensive data modelling and database development work including replication and horizontal partitioning.
@@ -76,8 +87,8 @@ Collaborated with senior personnel to define specifications and nonfunctional re
 +--{: #education}
 ##Education and Activites
 
-* *Vassar College* - Bachelor of Arts, Computer Science, 2002 - Poughkeepsie, New York
-* *Adventures in HttpContext* - my programming blog at http://blog.michaelhamrah.com
-* *Interests*- [Photography](http://www.flickr.com), hiking, cooking and yes - programming.
+* Vassar College *Bachelor of Arts, Computer Science, 2002 - Poughkeepsie, New York*
+* Adventures in HttpContext *My programming blog at http://blog.michaelhamrah.com*
+* Interests *[Photography](http://www.flickr.com), hiking, cooking and yes - programming.*
 
 =--

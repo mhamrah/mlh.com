@@ -1,0 +1,77 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+body div, body h1 {
+  width: 960px;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 5em;
+}
+ul, li {
+  display: block;
+  margin: auto;
+}
+h2 {
+  margin-bottom: 0;
+}
+h3, h4 {
+  margin: 0px 5px 0 0;
+  line-height: 1.2em;
+}
+h4 {
+  margin-bottom: 2px;
+}
+h4 em {
+  font-size: .9em;
+}
+
+#work_experience {
+  margin-bottom: 2px;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  // font-family: 'Source Sans', sans-serif;
+  margin-top: 0px;
+  // margin-top: 2px;
+}
+
+#trip {
+  font-style: italic;
+  font-size: .9em;
+}
+
+em {
+}
+
+span.notice {
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  font-size: .8em;
+  display: block;
+  margin-bottom: 5px;
+  margin-top: -2px;
+}
+
+ul, li {
+  font-family: 'Open Sans', sans-serif; 
+  em {
+    //font-style: normal;
+    //font-weight: bold;
+    font-size: .8em;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  body div, body h1 {
+    width: auto;
+    text-align: justify;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+}
+
+@media print {
+  font-size:
+}

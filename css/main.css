@@ -1925,16 +1925,17 @@ Modify as content requires.
     width: auto;
     margin: 0 10px;
     text-align: justify;
+    padding: 0px;
   }
 
-  /* line 308, ../scss/main.scss */
+  /* line 309, ../scss/main.scss */
   .spanner {
     width: auto;
     margin-bottom: 10px;
   }
 }
 @media print, (-o-min-device-pixel-ratio: 1.25), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
-  /* line 319, ../scss/main.scss */
+  /* line 320, ../scss/main.scss */
   body {
     background-color: #fff;
   }
@@ -1946,7 +1947,7 @@ Print styles.
 Inlined to avoid required HTTP connection: h5bp.com/r
 ========================================================================== */
 @media print {
-  /* line 332, ../scss/main.scss */
+  /* line 333, ../scss/main.scss */
   * {
     background: transparent !important;
     color: #000 !important;
@@ -1955,18 +1956,18 @@ Inlined to avoid required HTTP connection: h5bp.com/r
     text-shadow: none !important;
   }
 
-  /* line 340, ../scss/main.scss */
+  /* line 341, ../scss/main.scss */
   a,
   a:visited {
     text-decoration: underline;
   }
 
-  /* line 344, ../scss/main.scss */
+  /* line 345, ../scss/main.scss */
   a[href]:after {
     content: " (" attr(href) ")";
   }
 
-  /* line 348, ../scss/main.scss */
+  /* line 349, ../scss/main.scss */
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
@@ -1974,33 +1975,33 @@ Inlined to avoid required HTTP connection: h5bp.com/r
   /*
    * Don't show links for images, or javascript/internal links
    */
-  /* line 358, ../scss/main.scss */
+  /* line 359, ../scss/main.scss */
   .ir a:after,
   a[href^="javascript:"]:after,
   a[href^="#"]:after {
     content: "";
   }
 
-  /* line 363, ../scss/main.scss */
+  /* line 364, ../scss/main.scss */
   pre,
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
 
-  /* line 368, ../scss/main.scss */
+  /* line 369, ../scss/main.scss */
   thead {
     display: table-header-group;
     /* h5bp.com/t */
   }
 
-  /* line 373, ../scss/main.scss */
+  /* line 374, ../scss/main.scss */
   tr,
   img {
     page-break-inside: avoid;
   }
 
-  /* line 377, ../scss/main.scss */
+  /* line 378, ../scss/main.scss */
   img {
     max-width: 100% !important;
   }
@@ -2009,7 +2010,7 @@ Inlined to avoid required HTTP connection: h5bp.com/r
     margin: 0.5cm;
 }
 
-  /* line 387, ../scss/main.scss */
+  /* line 388, ../scss/main.scss */
   p,
   h2,
   h3 {
@@ -2017,7 +2018,7 @@ Inlined to avoid required HTTP connection: h5bp.com/r
     widows: 3;
   }
 
-  /* line 393, ../scss/main.scss */
+  /* line 394, ../scss/main.scss */
   h2,
   h3 {
     page-break-after: avoid;
