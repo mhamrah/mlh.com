@@ -1,4 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Lora);
+
+$print-font-family: 'Lora', serif;
 
 body div, body h1 {
   width: 960px;
@@ -31,7 +34,6 @@ h4 em {
 
 p {
   font-family: 'Open Sans', sans-serif;
-  // font-family: 'Source Sans', sans-serif;
   margin-top: 0px;
   // margin-top: 2px;
 }
@@ -73,5 +75,30 @@ ul, li {
 }
 
 @media print {
-  font-size:
+  p, ul, lu, span.notice {
+    font-family: $print-font-family;
+  }
+
+  body {
+    font-family: $print-font-family;
+    font-size: 14px;
+    margin-top: 0px;
+  }
+  #contact {
+    margin: 0px;
+    width: auto;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }
+  dt,dd  {
+  }
+  body h1 {
+    margin-bottom: 40px;
+  }
+  @page 
+  {
+    size: auto;
+    margin: 25mm 25mm 25mm 25mm;
+  }
 }
