@@ -1877,7 +1877,7 @@ Modify as content requires.
   /* line 270, ../scss/main.scss */
   ul, li {
     display: inline;
-    margin: 0px 0px 0px -5px;
+    margin: 0px 10px 0px -5px;
   }
 
   /* line 274, ../scss/main.scss */
@@ -1898,7 +1898,7 @@ Modify as content requires.
     margin-bottom: 10px;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 702px) {
   /* line 290, ../scss/main.scss */
   body {
     margin-top: 10px;

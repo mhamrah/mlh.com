@@ -269,7 +269,7 @@ Modify as content requires.
   h1 { font-size: 4em; }
   ul, li {
     display: inline;
-    margin: 0px 0px 0px -5px;
+    margin: 0px 10px 0px -5px;
   }
   i, i a, [class^="icon-"], [class*=" icon-"], #social a  {
     font-size: 1.5em;
@@ -286,7 +286,7 @@ Modify as content requires.
   }
 
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 702px) {
   body {
     margin-top:10px;
   }
