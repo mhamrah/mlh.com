@@ -37,3 +37,6 @@ build/config/buildinfo.properties
 
 # no intermediate files
 intermediate
+
+#no sass cache
+.sass_cache
