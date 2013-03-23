@@ -15,11 +15,15 @@ ul, li {
   margin: auto;
 }
 h2 {
-  margin-bottom: 0;
+  margin-bottom: 8px;
+  border-bottom: 1px solid #000000; 
 }
 h3, h4 {
   margin: 0px 5px 0 0;
   line-height: 1.2em;
+}
+h3 {
+  margin-top: 12px;
 }
 h4 {
   margin-bottom: 2px;
@@ -28,14 +32,10 @@ h4 em {
   font-size: .9em;
 }
 
-#work_experience {
-  margin-bottom: 2px;
-}
-
 p {
   font-family: 'Open Sans', sans-serif;
   margin-top: 0px;
-  // margin-top: 2px;
+  margin-bottom: 8px;
 }
 
 #trip {
@@ -58,8 +58,6 @@ span.notice {
 ul, li {
   font-family: 'Open Sans', sans-serif; 
   em {
-    //font-style: normal;
-    //font-weight: bold;
     font-size: .8em;
   }
 }
@@ -75,13 +73,12 @@ ul, li {
 }
 
 @media print {
-  p, ul, lu, span.notice {
+  p, ul, li, span.notice {
     font-family: $print-font-family;
   }
 
   body {
     font-family: $print-font-family;
-    font-size: 14px;
     margin-top: 0px;
   }
   #contact {
@@ -94,11 +91,14 @@ ul, li {
   dt,dd  {
   }
   body h1 {
-    margin-bottom: 40px;
+    margin-bottom: 50px;
   }
   @page 
   {
     size: auto;
-    margin: 25mm 25mm 25mm 25mm;
+    margin: 20mm 20mm 20mm 20mm;
+  }
+  #getty {
+    page-break-before:always;
   }
 }

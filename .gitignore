@@ -39,4 +39,4 @@ build/config/buildinfo.properties
 intermediate
 
 #no sass cache
-.sass_cache
+.sass-cache

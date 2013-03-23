@@ -19,34 +19,36 @@ ul, li {
 
 /* line 17, ../scss/resume.scss */
 h2 {
-  margin-bottom: 0;
+  margin-bottom: 8px;
+  border-bottom: 1px solid #000000;
 }
 
-/* line 20, ../scss/resume.scss */
+/* line 21, ../scss/resume.scss */
 h3, h4 {
   margin: 0px 5px 0 0;
   line-height: 1.2em;
 }
 
-/* line 24, ../scss/resume.scss */
+/* line 25, ../scss/resume.scss */
+h3 {
+  margin-top: 12px;
+}
+
+/* line 28, ../scss/resume.scss */
 h4 {
   margin-bottom: 2px;
 }
 
-/* line 27, ../scss/resume.scss */
+/* line 31, ../scss/resume.scss */
 h4 em {
   font-size: .9em;
-}
-
-/* line 31, ../scss/resume.scss */
-#work_experience {
-  margin-bottom: 2px;
 }
 
 /* line 35, ../scss/resume.scss */
 p {
   font-family: 'Open Sans', sans-serif;
   margin-top: 0px;
+  margin-bottom: 8px;
 }
 
 /* line 41, ../scss/resume.scss */
@@ -75,26 +77,25 @@ ul em, li em {
 }
 
 @media only screen and (max-width: 1024px) {
-  /* line 68, ../scss/resume.scss */
+  /* line 66, ../scss/resume.scss */
   body div, body h1 {
     width: auto;
     text-align: justify;
   }
 }
 @media print {
-  /* line 78, ../scss/resume.scss */
-  p, ul, lu, span.notice {
+  /* line 76, ../scss/resume.scss */
+  p, ul, li, span.notice {
     font-family: "Lora", serif;
   }
 
-  /* line 82, ../scss/resume.scss */
+  /* line 80, ../scss/resume.scss */
   body {
     font-family: "Lora", serif;
-    font-size: 14px;
     margin-top: 0px;
   }
 
-  /* line 87, ../scss/resume.scss */
+  /* line 84, ../scss/resume.scss */
   #contact {
     margin: 0px;
     width: auto;
@@ -103,13 +104,18 @@ ul em, li em {
     right: 0px;
   }
 
-  /* line 96, ../scss/resume.scss */
+  /* line 93, ../scss/resume.scss */
   body h1 {
-    margin-bottom: 40px;
+    margin-bottom: 50px;
   }
 
   @page {
     size: auto;
-    margin: 25mm 25mm 25mm 25mm;
+    margin: 20mm 20mm 20mm 20mm;
 }
+
+  /* line 101, ../scss/resume.scss */
+  #getty {
+    page-break-before: always;
+  }
 }
