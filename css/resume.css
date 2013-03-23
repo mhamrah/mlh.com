@@ -118,4 +118,9 @@ ul em, li em {
   #getty {
     page-break-before: always;
   }
+
+  /* line 104, ../scss/resume.scss */
+  a {
+    text-decoration: none;
+  }
 }
