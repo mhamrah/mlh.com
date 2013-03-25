@@ -8,7 +8,7 @@ email
 : mlh@michaelhamrah.com
 
 web
-: michaelhamah.com
+: michaelhamrah.com
 
 post
 : 180 Sterling Pl. Apt 16
@@ -26,7 +26,7 @@ I am a software engineer successful at building scalable, distributed systems fo
 
 I am proficient in several programming languages, specifically Ruby and Javascript, and have a long history working in C# and a short history in C++.  I apply a test-driven approach to development, incorporating design and architectural patterns to build highly maintainable systems.  My experience includes object-orientated and functional programming along with exploitation of VMs, runtimes and frameworks.  I am developing proficiency in Scala and Akka along with the Go (golang) programming language.
 
-I have extensive knowledge of web-based systems across all levels of the software stack.  This includes Html, Css, and Javascript development and optimization; HTTP fundamentals; web servers (IIS, Apache, Nginx); caching techniques and tools (Memcache, Varnish, CDNs); various web frameworks and application servers (Rails, Sinatra, EM, Node/Express, ASP.NET MVC); RESTful and other web-based services; networking protocols and data compression; queue based systems; search servers (Solr, ElasticSearch); TCP/IP networking and optimization; cloud tools (Heroku, AWS, CloudFoundry) and both SQL (PostgreSql, SQL Server) and NoSql (Redis, Cassandra, MongoDb) databases.  My career has been focused on leveraging these tools to build optimized, fault-tolerant systems that work under load at a global scale. 
+I have extensive knowledge of web-based systems across all levels of the software stack.  This includes Html, Css, and Javascript development and optimization; HTTP fundamentals; web servers (IIS, Apache, Nginx); caching techniques and tools (Memcache, Varnish, CDNs); various web frameworks and application servers (Rails, Sinatra, EM, Node/Express, ASP.NET MVC); RESTful and other web-based services; networking protocols and data compression; queue based systems; search servers (Solr, ElasticSearch); cloud tools (Heroku, AWS, CloudFoundry) and both SQL (PostgreSql, SQL Server) and NoSql (Redis, Cassandra, MongoDb) databases.  My career has been focused on leveraging these tools to build optimized, fault-tolerant systems that work under load at a global scale. 
 
 I have led teams of various sizes using Scrum and Kanban techniques, actively engaging with stakeholders to empower business.  I have worked with key personnel to brainstorm, define, prioritize and measure features.  My work has been to foster top talent, mentor junior developers, and recruit new hires.  I constantly seek to bridge the gap between business and technology. 
 
