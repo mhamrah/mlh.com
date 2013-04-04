@@ -10,9 +10,8 @@ email
 web
 : michaelhamrah.com
 
-post
-: 180 Sterling Pl. Apt 16
-: Brooklyn, NY 11217
+mobile
+: 917-575-1917
 =--
 
 +--{: #profile }
